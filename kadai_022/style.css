@@ -10,12 +10,12 @@ h1,p,body{
 
 header{
 
-    background-color: rgb(244,79,79);
+    background-color: rgb(244 79 79);
     padding-bottom: 20px;
     text-align: center;
 }
 
-h1{color: rgb(255,255,255);
+h1{color: rgb(255 255 255);
 }
 
 main{
@@ -29,7 +29,7 @@ main{
 }
 .contents{
 
-    border: solid 3px, rgb(238,204,204);
+    border: solid 3px, rgb(238 204 204);
     flex-basis:25%;
     padding:10px,15px;
     margin:20px,0px;
@@ -40,21 +40,21 @@ main{
 }
 
 h2{
-    border-bottom:dotted 3px rgb(236,122,122);
+    border-bottom:dotted 3px rgb(236 122 122);
     font-size:25px;
 
 }
 
 h2::before{
     content:"●";
-    color: rgb(239,122,122);
+    color: rgb(239 122 122);
     
 }
 
 
 .contents p:nth-of-type(2)::first-letter{
     font-weight:bold ;
-    color:rgb(97,206,246);
+    color:rgb(97 206 246);
 
 
 }
@@ -65,23 +65,23 @@ h2::before{
 
 }
 footer{
-    background-color: rgb(244,79,79);
+    background-color: rgb(244 79 79);
     text-align: center;
 }
 
 footer a{
-    color:rgb(255,255,255);
+    color:rgb(255 255 255);
 }
 footer a:link{
-    color:rgb(193,234,251);
+    color:rgb(193 234 251);
 }
 footer a:hover{
-    color:rgb(245,178,168);
+    color:rgb(245 178 168);
 }
 
 @media screen and (max-width: 768px){
 #parent{
-    display:block;
+    flex-direction: column;
     
 }   
 h2{font-size:30px;
